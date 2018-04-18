@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Money converter</h1>
+    <div class="cont">
+        <label>RUB</label>
+
+        <p><input type="number" id="inputdol" placeholder="Rub" oninput="ConvertToDram(this.value)" onchange="ConvertToDram(this.value)"></p>
+        <p>AMD: <span id="outputAMD"></span></p>
+    </div>
+
+    <!-- <hr > -->
+    <div class="contR">
+    <label>Dram</label>
+    <p><input type="number" id="inputdol" placeholder="AMD" oninput="ConvertToRub(this.value)" onchange="ConvertToRub(this.value)"></p>
+    <p>RUB: <span id="outputRUB"></span></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

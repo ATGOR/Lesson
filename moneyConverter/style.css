@@ -1,0 +1,10 @@
+.cont{
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px;
+}
+.contR{
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 10px;
+}
